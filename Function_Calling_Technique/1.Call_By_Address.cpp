@@ -1,0 +1,27 @@
+using namespace std;
+
+#include<iostream>
+#include<conio.h>
+void Address(int*);
+
+int main()
+{
+
+         int No = 14;
+
+         cout<< No<< endl;
+
+         Address(&No);
+
+         cout<< No << endl;
+
+         getch();
+         return 0;
+
+}
+
+void Address(int *ptr)
+{
+
+         cout << "Inside Function ..."<< endl;
+         (*ptr)++;}
